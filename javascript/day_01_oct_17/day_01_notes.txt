@@ -16,3 +16,38 @@ Tools & Softwares
        git clone https://github.com/sanjaysamantra1/Eureka_React_17_oct_2026
    c. To get the latest content from github
       git pull
+
+
+
+Web Development
+===============
+-Developing Websites  (https://www.amazon.in/   https://www.zomato.com/ )
+
+
+1. FrontEnd : User Interface - Presentation Layer 
+        HTML : Content ( div, para, button, inputbox, dropdown, form )
+        CSS : Styling ( Color, background , margin, padding )
+        Bootstrap : CSS Library ( pre-defined css classes)
+        Javascript : Behavior of a webpage, dynamic content, Interactivity
+        React/Angular/Vue : Javascript frameworks ( RAD , CLI , build, deploy )
+
+2. BackEnd :  Business Layer
+              Build REST APIs (https://fakestoreapi.com/products)
+              java / .net / python / PHP / Go
+
+3. DataBase : Holds the Application Data
+
+
+
+ProductList Page
+================
+1. create an HTML file (product_list.html)
+
+2. !  ( Emmet / Shortcut )  add boilerplate code
+   https://docs.emmet.io/cheat-sheet/
+
+3. Add HTML, CSS, Bootstrap, javascript Code in product_list.html
+
+4. To Open/Run HTML file in Browser
+   a. install vscode extension ( open in browser / live server)
+   b. alt+b   /  alt+shift+b
