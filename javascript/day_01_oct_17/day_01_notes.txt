@@ -1,0 +1,18 @@
+Tools & Softwares 
+=================
+1. Download & install NodeJS 
+   https://nodejs.org/en/download
+
+   in command prompt try the below command to verify nodejs installed
+   node -v
+
+2. vscode editor
+   https://code.visualstudio.com/
+
+
+3. Create Github Account, install git software & Clone the training repository
+   a. install git software (https://git-scm.com/)
+   b. clone the folder
+       git clone https://github.com/sanjaysamantra1/Eureka_React_17_oct_2026
+   c. To get the latest content from github
+      git pull
