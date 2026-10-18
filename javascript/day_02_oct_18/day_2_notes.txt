@@ -1,0 +1,50 @@
+HTML : Content ( div, para, button, inputbox, dropdown, form )
+CSS : Styling ( Color, background , margin, padding )
+Bootstrap : CSS Library ( pre-defined css classes)
+Javascript : Behavior of a webpage, dynamic content, Interactivity
+
+
+CSS  - Cascading Style Sheets
+====
+1. inline css 
+   style attribute, not re-usable, repeat in each HTML Element
+2. internal css 
+   <style></style>  page level 
+3. external css - Application Level css
+   a. create a separate .css file and write css code there
+   b. link that .css file to html file using <link rel>
+
+
+Bootstrap
+=========
+-CSS Library
+-Maintained by Twitter
+-Bootstrap 5 is the latest version
+-Official doc link:
+   https://getbootstrap.com/
+
+How to use Bootstrap in HTML file :  add CDN Link
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+Assignment: Create a webpage with few sections(NavBar, categories, carousel, Body, Footer)
+
+
+
+How to use JavaScript
+=====================
+1. internal javascript : <script> </script>
+2. external javascript
+    a. create a separate .js file and write javascript code
+    b. include that javascript file into HTML file using <script src=''></script>
+
+
+
+Assignments
+============
+1. Create a student table with few rows and columns, add bootstrap class names.
+
+2. HTML Form input types:
+    https://www.w3schools.com/html/html_form_input_types.asp
+
+3. HTML Form input attributes:
+   https://www.w3schools.com/html/html_form_attributes.asp
