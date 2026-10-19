@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <h2 class="text-center">Registration Form</h2>
+
+    <form method="POST" class="col-sm-4 offset-4 border border-3 p-3">
+        <p>
+            <label for="firstName">First Name:</label>
+            <input id="firstName" type="text" name="firstName" required placeholder="Enter First Name"
+            pattern="[a-zA-Z]{5,8}" autofocus>
+        </p>
+        <p>
+            Last Name:
+            <input type="search" name="lastName" value="Samantra" size="15" 
+            minlength="5" maxlength="20" title="Please Enter Your Last Name" >
+        </p>
+        <p>
+        <p>
+            Password:
+            <input type="password" name="password">
+        </p>
+        <p>
+            Gender:
+            <input id="male" type="radio" name="gender" value="male">
+            <label for="male">Male:</label>
+            <input id="female" type="radio" name="gender" value="female">
+            <label for="female">Female:</label>
+        </p>
+        <p>
+            Languages:
+            <input type="checkbox" name="language" value="telugu">Telugu
+            <input type="checkbox" name="language" value="english">English
+            <input type="checkbox" name="language" value="hindi">Hindi
+        </p>
+        <p>
+            Email:
+            <input type="email" name="email" id="">
+        </p>
+        <p>
+            Address:
+            <textarea name="address"></textarea>
+        </p>
+        <p>
+            State:
+            <select name="state" multiple>
+                <option>Karnataka</option>
+                <option>Tamilnadu</option>
+                <option>Kerala</option>
+                <option>Andhra Pradesh</option>
+                <option>Telengana</option>
+            </select>
+        </p>
+        <p>
+            pincode:
+            <input type="number" name="pincode" min="1" max="999999"  />
+        </p>
+
+        <input type="reset" value="Clear">
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+
+</html>

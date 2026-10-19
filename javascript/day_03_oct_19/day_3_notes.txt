@@ -1,0 +1,14 @@
+HTML Form Input Types : text , number, search, email, password, submit, reset
+
+input attributes: name, id, title, placeholder, pattern, minLength, maxLength,
+                  required, size, for, min, max, step
+
+
+
+Assignments
+===========
+1. take a variable to store age of a person, and check if he is eligible for voting
+
+2. take 2 numbers , perform addition,subtraction, multiplication on those 2 numbers
+
+3. take 3 numbers and find the largest amongst three
