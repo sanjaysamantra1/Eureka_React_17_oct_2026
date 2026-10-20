@@ -1,0 +1,35 @@
+<script>
+    let a = 5;
+    console.log(a, typeof a);
+
+    let b = 5.4;
+    console.log(b, typeof b);
+
+    let c = '10';
+    console.log(c, typeof c);
+
+    let d = 'sachin';
+    console.log(d, typeof d);
+
+    let e = false;
+    console.log(e, typeof e);
+
+    let f = 'true';
+    console.log(f, typeof f);
+
+    console.log(typeof undefined);  // undefined
+    console.log(typeof null);  // Object
+    console.log(typeof NaN);  // number
+
+    //as typeof null returns 'object' , is null a primitive value?
+    console.log(null == null); // true 
+
+
+    let arr = [10, 20];
+    let obj = { a: 10, b: 20 };
+    console.log(typeof arr); // object
+    console.log(typeof obj); // object
+
+    console.log(Array.isArray(arr)); // true
+    console.log(Array.isArray(obj)); // false
+</script>

@@ -1,0 +1,65 @@
+Most Commonly Used javascript Objects
+=====================================
+console : log() warn() error() table() time() timeEnd()
+document : write() getElementById() querySelector()
+window : alert() confirm() prompt()
+Math:  max() min() sqrt() cbrt() 
+Array : push() pop() shift() filter() map()
+Object : assign() groupBy()
+JSON : stringify() parse()
+
+
+window methods
+==============
+alert : To Display Alert messages
+        Message + Ok
+
+confirm : User Confirmation        
+          Message + Ok(true)  Cancel(false)
+
+prompt : To Collect User input   
+         Message + InputBox + Ok,cancel       
+
+
+
+
+DataTypes
+=========
+-Primitives are immutable, non-primitives are mutable
+-Primitives are compared by values, non-primitives are compared by address
+
+Primitive : number, string, boolean, bigint, symbol
+non-Primitive : Object
+
+
+--------------------
+
+JavaScript : is a programming Language, Follows ECMAScript Standards
+ECMAScript : Set of Rules/Standards followed by Javascript
+ECMA : European Computer Manufacturers Association
+
+
+<june 2015   ES_5
+June 2015    ES_6 (Most Popular)
+2016         ES_7
+2017         ES_8
+2018         ES_9
+.....................
+.....................
+2026         ES_17
+
+
+Variables
+=========
+-Variables are containers for storing data values.
+-Variables in JavaScript can be declared by using either 1 of the below 3 keywords
+    1. var
+    2. let
+    3. const
+
+
+
+Assignments:
+1. collect 2 numbers from user using prompt() and perform addition 
+2. ask user to enter a number , find the factorial of that number.
+3. ask user to enter 3 marks(math,english,computer) find total & average 

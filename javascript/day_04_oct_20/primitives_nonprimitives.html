@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Primitives are immutable, non-primitives are mutable
+        let str = 'ReactJS';
+        str[0] = 'S';  // update doesn't happen
+        str[1] = 'f';
+        str[2] = 'b';
+        console.log(str);
+
+        let arr = [10, 20, 30, 40, 50]
+        arr[0] = 15;
+        arr[1] = 25;
+        arr[2] = 35;
+        console.log(arr);
+
+
+        // Primitives are compared by values, non-primitives are compared by address
+        console.log(10 == 10);  // true
+        console.log('hello' == 'hello');  // true
+
+        console.log([10,20] == [10,20]); // false - addresses are not same
+    </script>
+</body>
+
+</html>

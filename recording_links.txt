@@ -9,3 +9,7 @@ Passcode: i%.3fYp!
 day_03_oct_19:
 https://zoom.us/rec/share/OrV7hWO50OhVpZJ5UDQH9OoSN7un_TWQwxR6bTVqs4e_5he3Ip8kime7ELEsCqq4.zzTVU-r4kTvzp5gr?from=hub
 Passcode: 3C&JH%=j
+
+day_04_oct_20:
+https://zoom.us/rec/share/M9UKhnIKYfTg1qWHMgj_9cnwcBNfn6BgkO1haywbQyPWHfOjZBZ_qczDQl8CXMKG.1ZfYdLX8iRp6m-8r?from=hub
+Passcode: Arg4.cZQ
