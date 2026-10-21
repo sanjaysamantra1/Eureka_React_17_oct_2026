@@ -1,0 +1,42 @@
+    var						let						 const
+======================================================================
+1.since begining		 1.ECMASCRIPT-6(2015)		1.ECMASCRIPT-6(2015)
+2.value can be changed   2.value can be changed     2.cann't be changed
+3.initialization is		 3.initialization is		3.mandatory
+	not mandatory           not mandatory	
+4.can be redeclared		 4.cann't be redeclared		4.cann't be redeclared
+5.function/global		 5.block/function/global	5.block/function/global
+6.TDZ - No			 	 6.TDZ - Yes				6.TDZ - Yes
+
+
+
+Variable Scope
+==============
+global scope:
+--------------
+-variables declared outside function.
+-these are accesible/visible throughout the script by any function.
+
+function:
+--------
+-declared inside a function/function arguements.
+-can be used only inside that function.
+
+block scope:
+------------
+-declared inside a block(if,else,try,catch)
+-visible only inside a block
+
+
+Scope chain
+===========
+-While resolving a variable, the block first  tries to find it within the own scope.
+-If the variable cannot be found in its own scope it will climb up the scope chain and look for the variable name in the environment where the function was defined.
+-If the variable cannot be found there, it will climb up the scope chain and will go till global scope to resolve the variable.
+
+
+Assignments:
+============
+1. collect a number from user and find sum of digits of that number( input: 125 ,output: 8)
+2. collect a number from user and reverse that number(without converting to string)
+ 
