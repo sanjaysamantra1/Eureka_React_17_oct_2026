@@ -1,0 +1,30 @@
+<script>
+    class Student {
+        firstName = 'Virat'
+        lastName = 'Kohli';
+
+        fullName1() {  // Regular: this = how the function is invoked
+            console.log('FullName-1:', this);
+            console.log(this.firstName, this.lastName);
+        }
+        fullName2 = () => { // Arrow : this = where the function is written(Lexical Scope)
+            console.log('FullName-2:', this);
+            console.log(this.firstName, this.lastName);
+        }
+    }
+    let std = new Student();
+    std.fullName1();  // this = student
+    std.fullName2();  // this = student
+
+    let a = std.fullName2;
+    a();  // fullName2() without losing this context
+    let b = a;
+    b(); // fullName2() without losing this context
+    let c = b;
+    c(); // fullName2() without losing this context
+    // an arrow function can be stored in a variable and can be used later
+
+    let x = std.fullName1;
+    x();  // it invokes fullName1() , but 'this' is lost
+    // a regular function cannot be stored in a variable and can not be used later
+</script>

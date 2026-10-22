@@ -1,0 +1,18 @@
+<script>
+    // Global Code 
+    console.log(this); // this = window
+
+    class Employee {
+        constructor() {
+            console.log(this); // this = Employee
+        }
+    }
+    let emp1 = new Employee();
+
+
+    let user = {
+        getName: function () {
+            console.log(this); // this = User
+        }
+    }
+</script>

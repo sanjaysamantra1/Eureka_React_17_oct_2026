@@ -1,0 +1,19 @@
+<script>
+    // Lexical Scope of fullName2()
+    console.log('Global:', this);
+
+    let user = {
+        firstName: 'Nikhil',
+        lastName: 'Kamboja',
+        fullName1: function () {
+            console.log('FullName-1: ', this); // this = user
+            console.log(this.firstName, this.lastName)
+        },
+        fullName2: () => {
+            console.log('FullName-2: ', this); // this = Window
+            console.log(this.firstName, this.lastName)
+        }
+    }
+    user.fullName1(); // inside fullName-1 this=user
+    user.fullName2(); // 
+</script>

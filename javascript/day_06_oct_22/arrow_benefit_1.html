@@ -1,0 +1,24 @@
+<script>
+    // global
+    class Employee {
+        name = "Sachin";
+        greet1 = function () {
+            console.log('Greet-1: ', this)
+            console.log('Hello ' + this.name);
+        }
+        greet2 = () => {
+            console.log('Greet-2: ', this)
+            console.log('Hello ' + this.name);
+        }
+    }
+    let emp = new Employee();
+    emp.greet1(); // Hello Sachin (this = employee) ( how the function is called)
+    emp.greet2(); // Hello Sachin (this = employee) ( where the function is written )
+
+    setTimeout(emp.greet2, 3000);  // this = employee
+    setTimeout(emp.greet1, 6000);  // this = window 
+    // `this` is lost! Prints `undefined` or global object
+
+
+    // The this keyword doesn't work as expected inside a regular function passed to setTimeout because setTimeout executes the callback function in the global execution context rather than the object that called it.
+</script>

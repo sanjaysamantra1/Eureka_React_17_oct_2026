@@ -1,0 +1,37 @@
+Functions
+=========
+1. Pre-Defined Functions : console.log(), window.alert(), document.getElementById()
+2. User-Defined Functions : Developers write these functions & developers use
+
+
+User-Defined Functions
+=======================
+1. Function Declaration
+2. Function Expression
+3. Arrow Function
+
+
+Function Declaration vs Function Expression
+=============================================
+1. Function Declarations are named, Function Expressions are not named (anonymous)
+2. Function Declarations are Hoisted, Function Expressions are not hoisted
+
+
+
+this keyword
+============
+-'this' is a keyword in javascript
+-The value of this in JavaScript depends on how a function is invoked
+-Arrow functions differ in their handling of this: they inherit this from the parent scope
+
+
+
+How 'this' works with Regular function and arrow function
+=========================================================
+Regular : this - How the function is invoked 
+Arrow : this - decided from the lexical scope (the scope where function is written)
+
+
+Arrow Limitations
+=================
+-Arrow functions should not be used as objet methods
