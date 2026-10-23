@@ -1,0 +1,15 @@
+<script>
+    var a = 10;     // global 
+    let b = 20;     // script
+    const c = 30;   // script
+    function f1(){
+        var d = 40;   // closure
+        function f2(){
+            console.log(a,b,c,d);
+        }
+        f2();
+        console.dir(f2);
+    }
+    f1();
+    console.dir(f1);
+</script>

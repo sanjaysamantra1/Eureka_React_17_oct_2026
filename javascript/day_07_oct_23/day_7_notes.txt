@@ -1,0 +1,47 @@
+Closure
+=======
+-Closure is a concept where a function remembers variables from its outer function even after the outer function has finished executing.
+
+-When the outer function execution completes, we would expect all its variables to be no longer accessible. However, if the inner function uses variables from the outer function, those variables remain accessible.
+
+-When an inner function accesses any data from the outer function, a 'closure' scope gets attached to the inner function.hence inner function can access outer function data.
+
+Note:outer functions will never have closure scope
+    inner functions will have closure scope only of inner functions is using outer function data
+
+
+Realtime usecase
+================
+1. data encapsulation
+
+
+
+String
+======
+length;
+toUpperCase();
+toLowerCase();
+charAt();
+at()
+charCodeAt();
+concat();
+indexOf();
+lastIndexOf();
+includes();
+startsWith()
+endsWith()
+match();
+matchAll()   // returns iterator
+replace();
+replaceAll();
+repeat();
+slice(start, end)
+substring(start, end)
+substr(start, length)
+split()
+search(regex)
+trim()
+eval(); (eval() is from Window Object)
+localeCompare()
+
+N.p:- substring() cannot accept negative indexes. slice() does.

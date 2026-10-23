@@ -35,3 +35,10 @@ Arrow : this - decided from the lexical scope (the scope where function is writt
 Arrow Limitations
 =================
 -Arrow functions should not be used as objet methods
+
+
+
+Arrow Function Benefits
+=========================
+-Arrow Functions use 'this' from lexical
+-they never loose the context of 'this' no matter how they are invoked
