@@ -33,3 +33,7 @@ Passcode: &?.xNDT0
 day_09_oct_26:
 https://zoom.us/rec/share/bG_iu9Z6WpA0PA5sHORtg06Wxevlr__VclHOn7mR7k924jDDJ4tuwp_6eHI3A4HF.kp8C7ULdTWSwvEbK 
 Passcode: rjW%w#F8
+
+day_10_oct_27:
+https://zoom.us/rec/share/fgFP8PEXb80anrj3yyvZteTy4aEsxwqoADfM1dqLFGV7SGbAA09Oeq4ApPB-026G.GTqHWYbTmpAU-1NA 
+Passcode: K7E0&jK7

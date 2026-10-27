@@ -1,0 +1,36 @@
+ES_6 & Beyond
+=============
+1. let & const
+2. Template Literals
+3. for-in & for-of Loop
+4. Arrow Function
+5. Default Parameter Value
+6. REST parameter
+7. Spread Operator
+8. Destructuring (Array & Object)
+9. Enhanced Object Literals
+10. Classes
+11. Modules (import/export)
+12. Dynamic Import
+13. Optional Chaining (safer deep property access)
+14. Nullish Coalescing (use fallback only for undefined/null)
+15. Map & Set , WeakMap & WeakSet
+16. Promise , async-await
+17. Generators
+18. Proxy & Reflect
+
+
+
+OOP
+----
+class - structure/blueprint/template for creating Object 
+		class has only logical existance
+		class doesn't have physical existance
+		
+object - Real Entity
+		 every instance of a class
+		 Object has physical existance
+
+-a class in javascript is created using constructor function(ES-5).
+-a class in javascript is created using class keyword.(ES-6).
+-class contains variables(states/properties) and methods(behaviours) inside it.
