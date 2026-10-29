@@ -17,7 +17,7 @@
     fetch("https://jsonplaceholder.typicode.com/comments").then(
         (response)=>{
             response.json().then((finalData)=>{
-                console.log(finalData)
+                console.log("Comment Arr: ",finalData)
             })
         },
         (error)=>{console.log(error)},
