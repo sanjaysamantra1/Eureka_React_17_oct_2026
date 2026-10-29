@@ -1,0 +1,49 @@
+How Javascript Works
+====================
+https://miro.medium.com/1*7GXoHZiIUhlKuKGT22gHmA.png
+https://miro.medium.com/v2/resize:fit:1358/format:webp/0*I_nlWjD6faxLrjAY.gif
+
+
+heap : Place where all the variables and methods are stored
+Stack/CallStack : Tracks which function is Currently running. it Follows LIFO 
+
+https://www.jsv9000.app/
+
+
+
+Event Loop 
+===========
+-event loop is a constantly running process that coordinates the tasks between 
+ call stack and callback queue to achieve concurrency.
+-event loop monitors both the 'callback queue' and  'call stack'.
+-If the callstack/executionstack is not empty, the event loop waits until it is empty and 
+	places the next function from the callback queue to the call stack. 
+-If the callback queue is empty, nothing will happen.
+
+
+setTimeout/setInterval (Window)
+========================
+-setTimeout allows to run a function once, after a specified amount of time.
+-setInterval allows to run a function repeatedly after the specified interval of time.
+-Methods setTimeout(func, delay, ...args) and setInterval(func, delay, ...args) allow us to run the func once/regularly after delay milliseconds.
+
+
+
+Promise
+=======
+-A promise is an object that holds the future value of an asynchronous operation.
+-A Promise object represents a value that is not available now, but will be resolved/available at some point in the future.
+-Promise object can have different states:- pending, resolved/fulfilled, rejected.
+ex:-if we request some data from a server, promise promises us to get that data that we can use in the future. 
+
+
+ex: 
+// fetch() returns a promise Object
+let usersPromise= fetch('https://jsonplaceholder.typicode.com/users');
+console.log(usersPromise);
+
+
+Consuming Promise
+-----------------
+1. then()
+2. async-await

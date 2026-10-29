@@ -1,0 +1,16 @@
+<script>
+  console.log("Global code starts Here...");
+
+  function f2() {
+    console.log("F2 starts...");
+    console.log("F2 ends...");
+  }
+  function f1() {
+    console.log("F1 starts...");
+    f2();
+    console.log("F1 ends...");
+  }
+  f1();
+  
+  console.log("Global code ends Here...");
+</script>
