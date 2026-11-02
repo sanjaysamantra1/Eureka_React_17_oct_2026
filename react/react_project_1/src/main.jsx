@@ -8,3 +8,8 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+/* 
+createRoot() creates a React root.
+render() renders the App component into the root container. 
+*/
