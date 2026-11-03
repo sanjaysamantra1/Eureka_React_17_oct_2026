@@ -1,3 +1,5 @@
 export default function Body() {
-    return <div>This is Body Component</div>
+    return <div style={{ minHeight: "300px" }}>
+        This is Body Component
+    </div>
 }

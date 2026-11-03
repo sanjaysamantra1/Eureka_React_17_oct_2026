@@ -10,7 +10,7 @@ import Footer from './components/footer/Footer.jsx';
 
 export default function App() {
   return <div>
-    <h2>This is App Component</h2>
+    {/* <h2>This is App Component</h2> */}
     <Navbar />
     <Categories></Categories>
     <Carousel />
