@@ -48,6 +48,10 @@ day_12_oct_29:
 https://zoom.us/rec/share/rApP6SlLkKNQuANqoXMkGOuqzKrhAuImlY7IlYXPr1kh1yGxSEz8XzUWtXC0MGQo.cXCnLYTn8UoTiU5D 
 Passcode: 0iEA2+58
 
-day_13_nov_2:
+React_day_1_nov_2:
 https://zoom.us/rec/share/WojWCGc0KLINHxZuWsUcsW3PqNczlweRQhw3dwi5mrQQgo0ztPL9Je4TBCGZV5Mk.koi18bkiqD9_-4P8?from=hub
 Passcode: Xd68.b^U
+
+React_day_2_nov_3:
+https://zoom.us/rec/share/rG3D9iyUD8MvGIr6JCajbY3jwZkeLQVujaIX5AVeWKW5IwRB_Oz8fPDPmmIGMKGh.9Fnu5mt3GLRXN-RY
+Passcode: Y=Sy&F+4
