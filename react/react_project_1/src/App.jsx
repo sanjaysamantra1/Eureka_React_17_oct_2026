@@ -12,8 +12,8 @@ export default function App() {
   return <div>
     {/* <h2>This is App Component</h2> */}
     <Navbar />
-    <Categories></Categories>
-    <Carousel />
+    {/* <Categories></Categories> */}
+    {/* <Carousel /> */}
     <Body />
     <Footer />
   </div>
