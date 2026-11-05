@@ -7,7 +7,7 @@ export default function StateDemo1() {
     }
     return <>
         <h3>Counter Example</h3>
-        <div>Count:0</div>
+        <div>Count:{count}</div>
         <button className="btn btn-primary" onClick={increment}>Increment</button>
     </>
 }
