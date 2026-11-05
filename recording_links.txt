@@ -59,3 +59,7 @@ Passcode: Y=Sy&F+4
 React_day_3_nov_4:
 https://zoom.us/rec/share/nShH1SwnSy926481GsyFqjWCdsqpM6pm37bL0q9lREptQJMmYW07TeoKi9bJCqrT.B5MXaTDjmp48OKXN
 Passcode: .CXN1Xe+
+
+React_day_4_nov_5:
+https://zoom.us/rec/share/3s95BaBavzYMPNCHyNggtubNxE8SrW7cFd3X9H24hQEw2XCNzO1tCbUD5XWRmu81.AJOaZ_WWfEjigqtK
+Passcode: @3x&G?W#
