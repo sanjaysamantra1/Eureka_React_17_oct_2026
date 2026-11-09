@@ -1,0 +1,8 @@
+h3{
+    background-color: antiquewhite;
+}
+
+.success { color: blue; }
+.error { color: burlywood; }
+.box { padding: 20px; border: 1px solid gray; }
+.active { background: gainsboro; }

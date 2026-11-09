@@ -1,0 +1,8 @@
+h3{
+    background-color: aquamarine;
+}
+
+.success { color: green; }
+.error { color: red; }
+.box { padding: 20px; border: 1px solid gray; }
+.active { background: lightgreen; }
