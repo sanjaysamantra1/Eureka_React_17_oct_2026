@@ -1,5 +1,6 @@
 import EmployeeList from "../list/EmployeeList"
 import FruitList from "../list/FruitList"
+import UserList from "../list/UserList"
 import ConditionalCSS from "../state/ConditionalCSS"
 import CounterDemo1 from "../state/CounterDemo1"
 import CounterDemo2 from "../state/CounterDemo2"
@@ -15,6 +16,7 @@ export default function Body() {
         {/* <EvenOdd/> */}
         {/* <ConditionalCSS/> */}
         {/* <FruitList/> */}
-        <EmployeeList/>
+        {/* <EmployeeList/> */}
+        <UserList />
     </div>
 }
