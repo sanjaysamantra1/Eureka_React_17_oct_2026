@@ -1,4 +1,5 @@
-import productArr from './product_data.js'
+import productArr from './product_data.js';
+
 
 export default function ProductList() {
     return <>

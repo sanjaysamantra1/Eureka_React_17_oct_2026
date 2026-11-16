@@ -2,6 +2,7 @@ import EmployeeList from "../list/EmployeeList"
 import FruitList from "../list/FruitList"
 import ProductList from "../list/ProductList"
 import UserList from "../list/UserList"
+import EmployeeCRUD from "../props/EmployeeCRUD"
 import Greet from "../props/Greet"
 import MyModal from "../props/MyModal"
 import ConditionalCSS from "../state/ConditionalCSS"
@@ -20,12 +21,13 @@ export default function Body() {
         {/* <ConditionalCSS/> */}
         {/* <FruitList/> */}
         {/* <EmployeeList/> */}
-        {/* <UserList /> */}
+        <UserList />
         {/* <ProductList/> */}
         {/* <Greet name="Harsha" msg="Good Morning" /> */}
         {/* <Greet name="Jeevitesh" msg="Good Evening" /> */}
-        <MyModal>
+        {/* <MyModal>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzXVfccEOrpSrEXkcWZxVHkNMeTg3ZvkCBvmCuL77O3g&s=10" alt="" />
-        </MyModal>
+        </MyModal> */}
+        {/* <EmployeeCRUD /> */}
     </div>
 }
