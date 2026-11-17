@@ -21,8 +21,8 @@ export default function Body() {
         {/* <ConditionalCSS/> */}
         {/* <FruitList/> */}
         {/* <EmployeeList/> */}
-        <UserList />
-        {/* <ProductList/> */}
+        {/* <UserList /> */}
+        <ProductList/>
         {/* <Greet name="Harsha" msg="Good Morning" /> */}
         {/* <Greet name="Jeevitesh" msg="Good Evening" /> */}
         {/* <MyModal>
