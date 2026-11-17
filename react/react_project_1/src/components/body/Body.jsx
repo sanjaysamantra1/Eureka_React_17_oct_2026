@@ -1,3 +1,4 @@
+import EventDemo1 from "../events/EventDemo1"
 import EmployeeList from "../list/EmployeeList"
 import FruitList from "../list/FruitList"
 import ProductList from "../list/ProductList"
@@ -22,12 +23,13 @@ export default function Body() {
         {/* <FruitList/> */}
         {/* <EmployeeList/> */}
         {/* <UserList /> */}
-        <ProductList/>
+        {/* <ProductList/> */}
         {/* <Greet name="Harsha" msg="Good Morning" /> */}
         {/* <Greet name="Jeevitesh" msg="Good Evening" /> */}
         {/* <MyModal>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzXVfccEOrpSrEXkcWZxVHkNMeTg3ZvkCBvmCuL77O3g&s=10" alt="" />
         </MyModal> */}
         {/* <EmployeeCRUD /> */}
+        <EventDemo1/>
     </div>
 }

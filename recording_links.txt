@@ -87,3 +87,7 @@ Passcode: WV.4eTu7
 React_day_10_nov_16:
 https://zoom.us/rec/share/C_DN__y3cYQC4x6eL-wjey7SjK6lE-4zfAZmcyIss7ugrwRE5cyNIej1Q7zOjjdx.TOkzPA9t0HqTqd2k
 Passcode: A4nN&47q
+
+React_day_11_nov_17:
+https://zoom.us/rec/share/5FVturws62OzxoTfX-2xJ_nN0dQT9bpTilLqfhmJYuvCPR3FUmyTxggtb-YqzBhX.06riFNrZGpRpeeiH
+Passcode: @!&1B8zt
