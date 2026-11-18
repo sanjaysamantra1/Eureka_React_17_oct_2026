@@ -23,6 +23,8 @@ export default function EmployeeForm() {
 
     const changeHandler = (e) => {
         setEmployee({ ...employee, [e.target.name]: e.target.value });
+        console.log(e)
+        console.log(e.nativeEvent)
     };
 
     const handleSubmit = (e) => {
@@ -37,7 +39,6 @@ export default function EmployeeForm() {
                 <p>
                     First Name:
                     <input name='firstName'
-                        type="text"
                         value={employee.firstName}
                         onChange={changeHandler}
                     />
@@ -45,7 +46,6 @@ export default function EmployeeForm() {
                 <p>
                     Last Name:
                     <input name='lastName'
-                        type="text"
                         value={employee.lastName}
                         onChange={changeHandler}
                     />

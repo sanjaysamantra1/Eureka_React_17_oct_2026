@@ -1,8 +1,12 @@
+import Addition from "../events/Addition"
+import EmployeeForm from "../events/EmployeeForm"
 import EventDemo1 from "../events/EventDemo1"
 import EmployeeList from "../list/EmployeeList"
 import FruitList from "../list/FruitList"
 import ProductList from "../list/ProductList"
 import UserList from "../list/UserList"
+import PureDemo1 from "../misc/PureDemo1"
+import PureDemo2 from "../misc/PureDemo2"
 import EmployeeCRUD from "../props/EmployeeCRUD"
 import Greet from "../props/Greet"
 import MyModal from "../props/MyModal"
@@ -30,6 +34,10 @@ export default function Body() {
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzXVfccEOrpSrEXkcWZxVHkNMeTg3ZvkCBvmCuL77O3g&s=10" alt="" />
         </MyModal> */}
         {/* <EmployeeCRUD /> */}
-        <EventDemo1/>
+        {/* <EventDemo1/> */}
+        {/* <Addition /> */}
+        {/* <EmployeeForm/> */}
+        {/* <PureDemo1 /> */}
+        <PureDemo2/>
     </div>
 }
