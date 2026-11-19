@@ -6,12 +6,20 @@ export default function ParentDemo() {
     const [count, setCount] = useState(0);
     const [courseName, setCourseName] = useState('ReactJS');
 
+    /*  const sayHello = () => {
+         console.log('Helloooo Parent...');
+     } */
+
+    const sayHello = useCallback(() => {
+        console.log('Helloooo Parent...');
+    }, []);
+
     return <>
         <div>Parent Component</div>
         <div>count:{count}</div>
         <button className="btn btn-primary mx-2" onClick={() => setCount(count + 1)}>Increment</button>
         <button className="btn btn-secondary" onClick={() => setCourseName('Angular')}>update course</button>
         <hr />
-        <ChildDemo courseName={courseName} />
+        <ChildDemo courseName={courseName} sayHello={sayHello} />
     </>
 }

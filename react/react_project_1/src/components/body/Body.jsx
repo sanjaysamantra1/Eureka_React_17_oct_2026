@@ -41,7 +41,7 @@ export default function Body() {
         {/* <EmployeeForm/> */}
         {/* <PureDemo1 /> */}
         {/* <PureDemo2/> */}
-        {/* <ParentDemo/> */}
-        <ProductSearch/>
+        <ParentDemo/>
+        {/* <ProductSearch/> */}
     </div>
 }

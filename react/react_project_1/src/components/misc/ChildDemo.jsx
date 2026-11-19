@@ -5,6 +5,7 @@ function ChildDemo(props) {
     return <>
         <div>Child Component</div>
         <div>courseName:{props.courseName}</div>
+        <button className="btn btn-secondary" onClick={props.sayHello}>say hello</button>
     </>
 }
 // export default ChildDemo;
