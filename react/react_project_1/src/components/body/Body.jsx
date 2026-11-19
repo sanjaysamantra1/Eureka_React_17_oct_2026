@@ -5,6 +5,7 @@ import EmployeeList from "../list/EmployeeList"
 import FruitList from "../list/FruitList"
 import ProductList from "../list/ProductList"
 import UserList from "../list/UserList"
+import ParentDemo from "../misc/ParentDemo"
 import PureDemo1 from "../misc/PureDemo1"
 import PureDemo2 from "../misc/PureDemo2"
 import EmployeeCRUD from "../props/EmployeeCRUD"
@@ -38,6 +39,7 @@ export default function Body() {
         {/* <Addition /> */}
         {/* <EmployeeForm/> */}
         {/* <PureDemo1 /> */}
-        <PureDemo2/>
+        {/* <PureDemo2/> */}
+        <ParentDemo/>
     </div>
 }
