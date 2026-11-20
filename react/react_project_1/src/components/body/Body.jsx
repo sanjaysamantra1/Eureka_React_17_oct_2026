@@ -1,6 +1,8 @@
 import Addition from "../events/Addition"
 import EmployeeForm from "../events/EmployeeForm"
 import EventDemo1 from "../events/EventDemo1"
+import UseEffectDemo1 from "../hooks/UseEffectDemo1"
+import UserDetails from "../hooks/UserDetails"
 import EmployeeList from "../list/EmployeeList"
 import FruitList from "../list/FruitList"
 import ProductList from "../list/ProductList"
@@ -41,7 +43,9 @@ export default function Body() {
         {/* <EmployeeForm/> */}
         {/* <PureDemo1 /> */}
         {/* <PureDemo2/> */}
-        <ParentDemo/>
+        {/* <ParentDemo/> */}
         {/* <ProductSearch/> */}
+        {/* <UseEffectDemo1 /> */}
+        <UserDetails/>
     </div>
 }
