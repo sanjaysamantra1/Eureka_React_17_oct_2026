@@ -99,3 +99,7 @@ Passcode: c+D9Xjgr
 React_day_13_nov_19:
 https://zoom.us/rec/share/Ldj0oNGop_-1_Etj9TPtTzgjXS5OTI-TgjXwmc4OZ5kf1tRzvtVNuR8RncH5mY0D.4aQrdb7OVYVJx8He
 Passcode: =Fb!xT%2
+
+React_day_14_nov_20:
+https://zoom.us/rec/share/59V6qaFhINlIefmwKmoorGq0GAlV4t3HCQ1LXC_8ygYQO0DO6b947Fch0KqR4Kel.iRqa0IO4GP74RkfR
+Passcode: C#!pzp3s

@@ -15,6 +15,10 @@ export default function UserDetails() {
 
     useEffect(() => {
         fetchUserData();
+
+        return () => {
+            console.log('This code gets executed when the component is about to be deleted')
+        }
     }, [userId]);
 
     return <>
