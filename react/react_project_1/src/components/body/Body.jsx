@@ -3,6 +3,7 @@ import EmployeeForm from "../events/EmployeeForm"
 import EventDemo1 from "../events/EventDemo1"
 import AdditionDemo1 from "../form/AdditionDemo1"
 import AdditionDemo2 from "../form/AdditionDemo2"
+import LoginForm from "../form/LoginForm"
 import UseEffectDemo1 from "../hooks/UseEffectDemo1"
 import UserDetails from "../hooks/UserDetails"
 import EmployeeList from "../list/EmployeeList"
@@ -49,8 +50,9 @@ export default function Body() {
         {/* <ProductSearch/> */}
         {/* <UseEffectDemo1 /> */}
         {/* <UserDetails/> */}
-        <AdditionDemo1 />
+        {/* <AdditionDemo1 />
         <hr/>
-        <AdditionDemo2/>
+        <AdditionDemo2/> */}
+        <LoginForm/>
     </div>
 }
