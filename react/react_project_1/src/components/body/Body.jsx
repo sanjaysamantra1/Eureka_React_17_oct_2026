@@ -4,6 +4,7 @@ import EmployeeForm from "../events/EmployeeForm"
 import EventDemo1 from "../events/EventDemo1"
 import AdditionDemo1 from "../form/AdditionDemo1"
 import AdditionDemo2 from "../form/AdditionDemo2"
+import FormDemo1 from "../form/FormDemo1"
 import LoginForm from "../form/LoginForm"
 import RegistrationForm from "../form/RegistrationForm"
 import UseEffectDemo1 from "../hooks/UseEffectDemo1"
@@ -56,8 +57,8 @@ export default function Body() {
         <hr/>
         <AdditionDemo2/> */}
         {/* <LoginForm/> */}
-        <RegistrationForm/>
+        {/* <RegistrationForm/> */}
         {/* <DigitalClock/> */}
-
+        <FormDemo1 />
     </div>
 }
