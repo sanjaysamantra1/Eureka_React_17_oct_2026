@@ -1,3 +1,4 @@
+import DigitalClock from "../assignments/DigitalClock"
 import Addition from "../events/Addition"
 import EmployeeForm from "../events/EmployeeForm"
 import EventDemo1 from "../events/EventDemo1"
@@ -56,5 +57,7 @@ export default function Body() {
         <AdditionDemo2/> */}
         {/* <LoginForm/> */}
         <RegistrationForm/>
+        {/* <DigitalClock/> */}
+
     </div>
 }

@@ -7,12 +7,23 @@ export default function RegistrationForm() {
         email: '',
         gender: '',
     }
+    const initialError = {
+        firstName: '',
+        lastName: '',
+        email: '',
+        gender: '',
+    }
     const [user, setUser] = useState(initialUser);
+    const [error, setError] = useState(initialError);
 
     const changeHandler = (event) => {
         setUser({
             ...user,
             [event.target.name]: event.target.value
+        });
+        setError({
+            ...error,
+            [event.target.name]: event.target.value.length == 0 ? `${event.target.name} is required` : ''
         });
     }
     const submitHandler = (event) => {
@@ -29,15 +40,18 @@ export default function RegistrationForm() {
         <form onSubmit={submitHandler} onReset={resetHandler}>
             <p>
                 FirstName:
-                <input name='firstName' value={user.firstName} onChange={changeHandler} />
+                <input name='firstName' value={user.firstName} onChange={changeHandler} required />
+                <span className="text-danger">{error.firstName}</span>
             </p>
             <p>
                 Last Name:
                 <input name='lastName' value={user.lastName} onChange={changeHandler} />
+                <span className="text-danger">{error.lastName}</span>
             </p>
             <p>
                 Email:
-                <input name='email' value={user.email} onChange={changeHandler} />
+                <input name='email' value={user.email} onChange={changeHandler} required />
+                <span className="text-danger">{error.email}</span>
             </p>
             <p>
                 Gender:
