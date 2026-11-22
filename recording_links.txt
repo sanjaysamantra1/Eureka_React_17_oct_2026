@@ -107,3 +107,7 @@ Passcode: C#!pzp3s
 React_day_15_nov_21:
 https://zoom.us/rec/share/erXtXx6VMjS-sm48M1toAPEVzUKUT-Mw9MGYp0R0_F0TkLRGivtR4XA6T10Xvc3d.uZT4hGscZGnMprj0
 Passcode: nQ0.P9EX
+
+React_day_16_nov_22:
+https://zoom.us/rec/share/urvxdT_LVDBtz2soMAfGESlcgpFtxhLCiADdde4OV45e5i3pcpSkQM2uIHb7fgwB.fioNwMS8SjGQuU_x
+Passcode: JNfE4$e^
