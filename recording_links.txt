@@ -111,3 +111,7 @@ Passcode: nQ0.P9EX
 React_day_16_nov_22:
 https://zoom.us/rec/share/urvxdT_LVDBtz2soMAfGESlcgpFtxhLCiADdde4OV45e5i3pcpSkQM2uIHb7fgwB.fioNwMS8SjGQuU_x
 Passcode: JNfE4$e^
+
+React_day_17_nov_23:
+https://zoom.us/rec/share/Ff9oqEp0rsy_EosrNdOlDqulFxTbohUwytctyNV3v2-36Ld1AGzgLPKpRgRaEFf4.kozn63hdHtKby30x
+Passcode: X*Ngt=7z

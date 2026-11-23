@@ -9,6 +9,7 @@ import LoginForm from "../form/LoginForm"
 import RegistrationForm from "../form/RegistrationForm"
 import UseEffectDemo1 from "../hooks/UseEffectDemo1"
 import UserDetails from "../hooks/UserDetails"
+import UserTableHttp from "../http/UserTableHttp"
 import EmployeeList from "../list/EmployeeList"
 import FruitList from "../list/FruitList"
 import ProductList from "../list/ProductList"
@@ -59,6 +60,7 @@ export default function Body() {
         {/* <LoginForm/> */}
         {/* <RegistrationForm/> */}
         {/* <DigitalClock/> */}
-        <FormDemo1 />
+        {/* <FormDemo1 /> */}
+        <UserTableHttp/>
     </div>
 }
