@@ -10,6 +10,7 @@ import RegistrationForm from "../form/RegistrationForm"
 import UseEffectDemo1 from "../hooks/UseEffectDemo1"
 import UserDetails from "../hooks/UserDetails"
 import CommentTableHttp from "../http/CommentTableHttp"
+import ToDoTableHttp from "../http/ToDoTableHttp"
 import UserTableHttp from "../http/UserTableHttp"
 import EmployeeList from "../list/EmployeeList"
 import FruitList from "../list/FruitList"
@@ -63,6 +64,7 @@ export default function Body() {
         {/* <DigitalClock/> */}
         {/* <FormDemo1 /> */}
         {/* <UserTableHttp/> */}
-        <CommentTableHttp/>
+        {/* <CommentTableHttp/> */}
+        <ToDoTableHttp/>
     </div>
 }
