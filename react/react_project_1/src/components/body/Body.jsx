@@ -10,6 +10,7 @@ import RegistrationForm from "../form/RegistrationForm"
 import UseEffectDemo1 from "../hooks/UseEffectDemo1"
 import UserDetails from "../hooks/UserDetails"
 import CommentTableHttp from "../http/CommentTableHttp"
+import ProductListHttp from "../http/ProductListHttp"
 import ToDoTableHttp from "../http/ToDoTableHttp"
 import UserTableHttp from "../http/UserTableHttp"
 import EmployeeList from "../list/EmployeeList"
@@ -65,6 +66,7 @@ export default function Body() {
         {/* <FormDemo1 /> */}
         {/* <UserTableHttp/> */}
         {/* <CommentTableHttp/> */}
-        <ToDoTableHttp/>
+        {/* <ToDoTableHttp/> */}
+        <ProductListHttp />
     </div>
 }
