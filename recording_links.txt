@@ -119,3 +119,7 @@ Passcode: X*Ngt=7z
 React_day_18_nov_24:
 https://zoom.us/rec/share/DO6O-Pm3hzha4Mv2Fpv79BVlLgWEYJM9DEaxjGPDGOh9VsgqjQXkR-JnPWCrn1Yy.O-CSAdTdDlojeW07
 Passcode: %e*0T153
+
+React_day_19_nov_25:
+https://zoom.us/rec/share/HNtUp0-1XeAMP6b3RpJcmOwj2CkQUJYwBOWPt7THardeW57beZAIpIUJ-tlKv3E_.NNaNTn-BOSOOQs6x
+Passcode: 11nbCu##
