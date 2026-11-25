@@ -1,6 +1,7 @@
 import React, { useState, Fragment } from 'react';
+import WithLogger from '../hoc/WithLogger';
 
-export default function CounterDemo1() {
+function CounterDemo1() {
     // var count = 0;   // Local Variable
     // const increment = () => {
     //     count = count + 1;
@@ -20,3 +21,5 @@ export default function CounterDemo1() {
         <i className="bi-airplane" style={{ fontSize: "2rem", color: "cornflowerblue" }}></i> */}
     </Fragment>
 }
+// export default CounterDemo1;
+export default WithLogger(CounterDemo1);

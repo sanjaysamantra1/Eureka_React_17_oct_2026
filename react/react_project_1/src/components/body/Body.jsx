@@ -34,7 +34,7 @@ export default function Body() {
     return <div style={{ minHeight: "300px" }} id="body">
         {/* This is Body Component */}
         {/* <StateDemo1/> */}
-        {/* <CounterDemo1/> */}
+        <CounterDemo1/>
         {/* <CounterDemo2/> */}
         {/* <EvenOdd/> */}
         {/* <ConditionalCSS/> */}
@@ -67,6 +67,6 @@ export default function Body() {
         {/* <UserTableHttp/> */}
         {/* <CommentTableHttp/> */}
         {/* <ToDoTableHttp/> */}
-        <ProductListHttp />
+        {/* <ProductListHttp /> */}
     </div>
 }
