@@ -123,3 +123,7 @@ Passcode: %e*0T153
 React_day_19_nov_25:
 https://zoom.us/rec/share/HNtUp0-1XeAMP6b3RpJcmOwj2CkQUJYwBOWPt7THardeW57beZAIpIUJ-tlKv3E_.NNaNTn-BOSOOQs6x
 Passcode: 11nbCu##
+
+React_day_20_nov_26:
+https://zoom.us/rec/share/FImR-Nq518Ac-4JOwRCpQac_DcD0E6H0ZZiu8V3uXZkehPG7KhKndTJJnrEA5OSb.FdfQG7vG6rQWhgWJ
+Passcode: y+h1g^&3
