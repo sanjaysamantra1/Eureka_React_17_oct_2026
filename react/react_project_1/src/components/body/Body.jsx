@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router"
 import DigitalClock from "../assignments/DigitalClock"
 import Addition from "../events/Addition"
 import EmployeeForm from "../events/EmployeeForm"
@@ -29,12 +30,17 @@ import CounterDemo1 from "../state/CounterDemo1"
 import CounterDemo2 from "../state/CounterDemo2"
 import EvenOdd from "../state/EvenOdd"
 import StateDemo1 from "../state/StateDemo1"
+import Home from "../routing/Home"
+import AboutUs from "../routing/AboutUs"
+import Careers from "../routing/Careers"
+import ContactUs from "../routing/ContactUs"
+import NotFound from "../routing/NotFound"
 
 export default function Body() {
     return <div style={{ minHeight: "300px" }} id="body">
         {/* This is Body Component */}
         {/* <StateDemo1/> */}
-        <CounterDemo1/>
+        {/* <CounterDemo1/> */}
         {/* <CounterDemo2/> */}
         {/* <EvenOdd/> */}
         {/* <ConditionalCSS/> */}
@@ -68,5 +74,13 @@ export default function Body() {
         {/* <CommentTableHttp/> */}
         {/* <ToDoTableHttp/> */}
         {/* <ProductListHttp /> */}
+        <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/home" element={<Home />} />
+            <Route exact path="/aboutus" element={<AboutUs />} />
+            <Route exact path="/careers" element={<Careers />} />
+            <Route exact path="/contactus" element={<ContactUs />} />
+            <Route path="*" element={<NotFound />} />
+        </Routes>
     </div>
 }
