@@ -3,6 +3,7 @@ import productsArr from './product_data.js';
 import ReactPaginateModule from 'react-paginate'
 const ReactPaginate = ReactPaginateModule.default || ReactPaginateModule
 import './pagination.css'
+import { createSearchParams, useNavigate } from 'react-router';
 
 export default function ProductList() {
     const [itemOffset, setItemOffset] = useState(0);
@@ -20,6 +21,14 @@ export default function ProductList() {
         );
         setItemOffset(newOffset);
     };
+
+    const navigate = useNavigate();
+    const navigateHandler = (id, title, price) => {
+        navigate({
+            pathname: "/productdetails",
+            search: `?${createSearchParams({ id, title, price })}`,
+        });
+    };
     return <>
         <h3 className="text-center">Product List</h3>
         <div className="row">
@@ -33,7 +42,9 @@ export default function ProductList() {
                             <p className="card-text text-truncate">{product.description}</p>
                             <p className="card-text">Rs. {product.price}</p>
                             <p className="card-text">{product.rating.rate}*</p>
-                            <a href="#" className="btn btn-primary">Details</a>
+                            <button className="btn btn-secondary" onClick={() => {
+                                navigateHandler(product.id, product.title, product.price);
+                            }}>details</button>
                         </div>
                     </div>
                 </div>
@@ -42,18 +53,18 @@ export default function ProductList() {
         <div className="row">
             <div className="col-sm-6 offset-3">
                 <ReactPaginate
-                breakLabel="..."
-                nextLabel="next >"
-                onPageChange={handlePageClick}
-                pageRangeDisplayed={5}
-                pageCount={pageCount}
-                previousLabel="< previous"
-                renderOnZeroPageCount={null}
-                containerClassName="pagination"
-                pageLinkClassName="page-num"
-                previousLinkClassName="page-num"
-                nextLinkClassName="page-num"
-                activeLinkClassName="active"
+                    breakLabel="..."
+                    nextLabel="next >"
+                    onPageChange={handlePageClick}
+                    pageRangeDisplayed={5}
+                    pageCount={pageCount}
+                    previousLabel="< previous"
+                    renderOnZeroPageCount={null}
+                    containerClassName="pagination"
+                    pageLinkClassName="page-num"
+                    previousLinkClassName="page-num"
+                    nextLinkClassName="page-num"
+                    activeLinkClassName="active"
                 />
             </div>
         </div>
