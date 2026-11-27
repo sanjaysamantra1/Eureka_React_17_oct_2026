@@ -35,6 +35,7 @@ import AboutUs from "../routing/AboutUs"
 import Careers from "../routing/Careers"
 import ContactUs from "../routing/ContactUs"
 import NotFound from "../routing/NotFound"
+import UserDetail from "../routing/UserDetail"
 
 export default function Body() {
     return <div style={{ minHeight: "300px" }} id="body">
@@ -80,6 +81,9 @@ export default function Body() {
             <Route exact path="/aboutus" element={<AboutUs />} />
             <Route exact path="/careers" element={<Careers />} />
             <Route exact path="/contactus" element={<ContactUs />} />
+            <Route exact path="/users" element={<UserList />} />
+            <Route exact path="/userdetail/:id" element={<UserDetail />} />
+            <Route exact path="/products" element={<ProductList />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
     </div>

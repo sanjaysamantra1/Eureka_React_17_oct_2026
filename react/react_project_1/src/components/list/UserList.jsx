@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import users from './user_data.json';
 import SearchBarModule from 'react-js-search';
+import { Link } from 'react-router';
 const SearchBar = SearchBarModule.default || SearchBarModule;
 
 export default function UserList() {
@@ -34,7 +35,7 @@ export default function UserList() {
                             <p className="card-text">{user.email}</p>
                             <p className="card-text">{user.phone}</p>
                             <p className="card-text">{user.address.city}</p>
-                            <a href="#" className="btn btn-primary">Details</a>
+                            <Link to={`/userdetail/${user.id}`}>Details</Link>
                         </div>
                     </div>
                 </div>
