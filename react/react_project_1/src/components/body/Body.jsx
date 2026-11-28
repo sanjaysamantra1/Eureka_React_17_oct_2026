@@ -1,3 +1,4 @@
+
 import { Route, Routes } from "react-router"
 import DigitalClock from "../assignments/DigitalClock"
 import Addition from "../events/Addition"
@@ -16,7 +17,7 @@ import ToDoTableHttp from "../http/ToDoTableHttp"
 import UserTableHttp from "../http/UserTableHttp"
 import EmployeeList from "../list/EmployeeList"
 import FruitList from "../list/FruitList"
-import ProductList from "../list/ProductList"
+const ProductList = lazy(() => import('../list/ProductList'))
 import UserList from "../list/UserList"
 import ParentDemo from "../misc/ParentDemo"
 import ProductSearch from "../misc/ProductSearch"
@@ -41,6 +42,7 @@ import PermanentJobs from "../routing/PermanentJobs"
 import ContractJobs from "../routing/ContractJobs"
 import UploadVideos from "../routing/UploadVideos"
 import ProtectedRoute from "../routing/ProtectedRoute"
+import { Suspense,lazy } from "react"
 
 export default function Body() {
     return <div style={{ minHeight: "300px" }} id="body">
@@ -92,7 +94,11 @@ export default function Body() {
             <Route exact path="/contactus" element={<ContactUs />} />
             <Route exact path="/users" element={<UserList />} />
             <Route exact path="/userdetail/:id" element={<UserDetail />} />
-            <Route exact path="/products" element={<ProductList />} />
+            <Route exact path="/products" element={
+                <Suspense fallback={<div>Loading...</div>}>
+                    <ProductList />
+                </Suspense>
+            } />
             <Route exact path="/productdetails" element={<ProductDetails />} />
             <Route exact path="/upload" element={
                 <ProtectedRoute>

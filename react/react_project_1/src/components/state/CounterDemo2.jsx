@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 
 export default class CounterDemo2 extends Component {
     constructor(props) {

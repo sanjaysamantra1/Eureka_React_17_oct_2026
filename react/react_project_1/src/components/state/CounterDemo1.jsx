@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import { useState, Fragment } from 'react';
 import WithLogger from '../hoc/WithLogger';
 
 function CounterDemo1() {

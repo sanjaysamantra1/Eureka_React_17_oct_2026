@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import myStyles from "./my_styles.module.css"
 import "./even_odd.css"
 
